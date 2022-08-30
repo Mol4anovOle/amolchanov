@@ -1,0 +1,131 @@
+.first-section{
+     background:#fff;
+  padding:150px 0 40px ;
+     min-height:30vh;
+     
+}
+
+.features-section h2.section__title {
+
+    color: #444446;
+}
+.first-section__left {
+    width: 60%;
+        height: fit-content;
+
+}
+.features-section h2.section__title {
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+}
+
+.first-section__left h1{
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+color: #444446;
+}
+
+.first-section__right {
+    width: 40%;
+        height: fit-content;
+   
+}
+
+
+
+.first-section__description {
+     font-family: Roboto, sans-serif;
+font-size: 18px;
+line-height: 24px;
+color:#444446;
+
+}
+.testimonials-section{
+    background:#ECF4F8;
+}
+.testimonials_grid.wrap{
+    flex-wrap:wrap;
+}
+.testimonial_item{
+    width:32%;
+    margin:20px 0;
+    padding:40px 30px;
+background: #FFFFFF;
+border: 1px solid #E4E9F0;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+border-radius: 30px;
+}
+.subject{
+    font-weight: bold;
+font-size: 24px;
+margin:20px 0;
+color: #263238;
+}
+.star-line{
+    color:#F25A5A;
+    margin-bottom:20px;
+    
+}
+.star-line span{
+    font-weight: bold;
+font-size: 24px;
+line-height: 14px;
+margin-left:20px;
+color: #444446;
+}
+.work_level,.work_type{
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #444446;
+}
+.level_value{
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+color: #444446;
+
+}
+.review_body{
+    border-top:1px solid #D6E0EE;;
+    border-bottom:1px solid #D6E0EE;;
+    padding:20px 0;
+    margin:20px 0;
+    font-size: 16px;
+line-height: 21px;
+color: #707077;
+}
+.review_body p{
+    margin-bottom:0;
+}
+.customer,.review_date{
+    font-size: 12px;
+      font-weight:bold;
+color: #444446;
+}
+@media (max-width:767px) {
+    .first-section{
+     background:#F0F0F0;
+}
+        .first-section .wrap{
+        flex-wrap:wrap;
+    }
+
+     .first-section__right,.first-section__left,.faq_items,.testimonial_item{
+         width:100%;
+     }
+     .faq_grid{
+         flex-wrap:wrap;
+     }
+
+    .first-section__left h1{
+       font-size: 36px;
+       line-height:1.6em;
+    }
+      
+   
+    
+}

@@ -1,0 +1,162 @@
+#main{
+    
+ background:url(../images/generator.webp) 100% 100%;
+     background-size:cover;
+     padding:170px 0 0;
+     min-height:60vh;
+     background-repeat:no-repeat;
+}
+.first-section__title{
+    font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+}
+.generator_instruction{
+    text-align:center;
+}
+input, select,.preview_essay{
+    margin:0 auto;
+    width:100%;
+    padding:10px;
+   min-width:250px;
+    height:40px;
+    border: 1px solid #DADCE0;
+
+box-shadow: inset 3px 3px 4px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+    background:#fff;
+}
+.preview_essay{
+    min-height:300px;
+    margin:20px auto;
+    line-height:2em;
+}
+.output{
+    text-align:center;
+}
+.cf7sr-g-recaptcha{
+    margin:0 auto;
+    width:fit-content;
+}
+.generator_button,.show_article{
+    margin:0 auto;
+    font-weight: 600;
+line-height: 14px;
+/* identical to box height, or 100% */
+cursor:pointer;
+text-align: center;
+color: #FFFFFF;
+padding:18px;
+    background: #12CCE5;
+box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.08);
+border-radius: 8px;
+    width:250px;
+    height:50px;
+    font-size:14px;
+   
+    
+}
+.show_button_block{
+    text-align:center;
+}
+.generator_button:hover{
+    opacity:0.7;
+}
+
+.generator_question{
+ 
+      border: 1px solid silver;
+   position:relative;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+       padding: 2px 6px;
+    font-size: 12px;
+
+    text-align: center;
+    background: #fefefe;
+    color: grey;
+    cursor: pointer;
+    
+}
+.custom_dropdown{
+    position:relative;
+}
+.custom_dropdown:before{
+   content: "";
+    background: url(../images/icons/arrow-dawn.svg) no-repeat center/cover;
+    width: 12px;
+    position:absolute;
+    height: 7.29px;
+    right: 20px;
+    top: calc(50% - 3px);
+    position: absolute;
+    pointer-events: none;
+   
+}
+.essay_length{
+    text-indent: 0.01px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor:pointer;
+}
+.generator_question:hover .generator_answer{
+    display:block;
+}
+.generator_answer{
+     bottom: -6px;
+    width: fit-content;
+    min-width:150px;
+      right: 22px;
+    position: absolute;
+    background: grey;
+    color: #fff;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#generator{
+    border-radius:20px;
+    background:#fff;
+    padding:40px 20px;
+    position: relative;
+      margin: 20px auto;
+}
+#loading_wrap{
+    background:#fff;
+    
+     text-align:center;
+     position:absolute; 
+     height:100%; 
+     width:100%; 
+    
+     top:40px; 
+     left:0;
+}
+.load_process{
+    background:url(../images/load.gif) ;
+     background-size:cover;
+     background-repeat:no-repeat;
+     width:200px;
+     margin:40px auto;
+    height:200px;
+    display:block;
+}
+.preview_essay{
+    height:fit-content;
+}
+.preview_essay p{
+    text-align:left;
+}
+@media(max-width:600px){
+    input, select{
+    margin:0 auto;
+    width:100%;
+    padding:10px;
+    border-radius: 8px;
+    height:40px;
+    border:1px solid #12CCE5;
+    background:#fff;
+}
+}
